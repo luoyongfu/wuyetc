@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+#ensure{
+    height:3rem;
+    padding:.25rem 0 .25rem .25rem;
+    margin-top:.1rem;
+    background-color: #fff;
+}
+#ensure ul{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#ensure li{
+    display: flex;
+    height:.35rem;
+    color:#9f8a70;
+    align-items: center;
+}
+#ensure li .bg{
+    width:.35rem;
+    height:100%;
+    border-radius: 50%;
+    background-image: url('../images/section/time.png');
+    background-repeat: no-repeat;
+    background-size:2rem;
+}
+#ensure li .bg1{
+    background-position:-.1rem -.97rem;
+}
+#ensure li .bg2{
+    background-position:-.58rem -.97rem;
+}
+#ensure li .bg3{
+    background-position:-1.06rem -.97rem;
+}
+#ensure li .bg4{
+    background-position:-1.54rem -.97rem;
+}
+#ensure li .text{
+    margin-left:.1rem;
+}
+#ensure li .text p:first-child{
+    font-size: .14rem;
+}

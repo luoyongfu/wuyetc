@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+#section{
+    margin-top:.1rem;
+    background-color: #fff;
+}
+#section .limit-timer{
+    /*background-color: red;*/
+}
+#section .limit-timer .title{
+    background-color: #fff;
+}
+#section .limit-timer .title-left{
+    float: left;
+    width: .9rem;
+    height: .3rem;
+    margin-left:.2rem;
+    background-image: url('../images/section/time.png');
+    background-position:-.1rem -.1rem;
+    background-size: 1.6rem;
+    background-repeat: no-repeat;
+}
+#section .limit-timer .title-right{
+    float: right;
+    width:1.5rem;
+}
+#section .limit-timer .title-right > p{
+    line-height:.32rem;
+    margin-right:.05rem;
+    font-size: .14rem;
+}
+#section .limit-timer .title-right > div{
+    line-height:.32rem;
+}
+#section .limit-timer .title-right .checktime{
+    background-color: #ddd;
+    color:#000;
+    padding:0 .05rem;
+    border-radius: 0.05rem;
+    font-size: .14rem;
+}
+#section .limit-timer .placeshow{
+    width: 3.5rem;
+    height:1rem;
+    /*border:1px solid #000;*/
+    margin:.1rem auto 0;
+}
+#section .limit-timer .placeshow .img{
+    width:1.3rem;
+    height:100%;
+    overflow: hidden;
+}
+#section .limit-timer .placeshow .img img{
+    height:100%;
+}
+#section .limit-timer .placeshow .placeintrodu{
+    width:2.1rem;
+    height:100%;
+    margin-left:.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#section .limit-timer .placeshow .placeintrodu > p{
+    background-color: #fff;
+    color:#404040;
+    font-size: .14rem;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    height:.4rem;
+    overflow: hidden;
+}
+.limit-timer .placeshow .placeintrodu .more{
+    width:100%;
+}
+.placeshow .placeintrodu .more p:first-child{
+    color:orange;
+    font-weight: bold;
+}
+.placeshow .placeintrodu .more p:last-child{
+    color:orange;
+    font-weight: bold;
+}
+.placeshow .placeintrodu .more span{
+    display: block;
+    padding-top:.01rem;
+    font-size: .11rem;
+    vertical-align: bottom;
+    margin-left:.02rem;
+}
+#section .list-item{
+    display: flex;
+    width:100%;
+    height:.75rem;
+    margin-top:.1rem;
+    border-top:.01rem solid #ddd;
+}
+#section .list-item .cheap{
+    width: 50%;
+    height:100%;
+    padding:.15rem .15rem 0rem .15rem;
+}
+#section .list-item .cheap:last-child{
+    width: 50%;
+    height:100%;
+    border-left:.01rem solid #ddd;
+}
+.list-item .cheap img{
+    width: .5rem;
+    height: .5rem;
+}
+.list-item .cheap .cheapleft{
+    display: flex;
+    height:.5rem;
+    margin-left:.1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+.list-item .cheap .cheapleft p:last-child{
+    font-size: .12rem;
+    border:.01rem solid orange;
+    text-align: center;
+    color:orange;
+    border-radius: .1rem;
+}
+#section .box{
+    height:.1rem;
+    background-color: #ddd;
+}
+#section .app a{
+    display: block;
+    height:100%;
+}
+#section .app{
+    width:100%;
+    height:.9rem;
+}
+#section .hot{
+}
+#section .hot h2{
+    font-size: .16rem;
+    text-align: center;
+    color:orange;
+    line-height: .5rem;
+}
+#section .hot .city{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:1rem;
+    padding:.15rem;
+    border-bottom:.01rem solid #ddd;
+}
+#section .hot .city span{
+    display: block;
+    width: .8rem;
+    height: .3rem;
+    background-color: #ddd;
+    border-radius: .2rem;
+    line-height: .3rem;
+    text-align: center;
+}
+#section .hot .city span:last-child{
+    margin-top:.1rem;
+}
+#section .hotimg{
+    height:2.65rem;
+    padding:.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#section .hotimg div{
+    width: 1.7rem;
+    height:1.06rem;
+    overflow: hidden;
+    border-radius: .1rem;
+}
+#section .hotimg div img{
+    width: 100%;
+    height:100%;
+}
+#section .moreplay{
+    padding-bottom:.2rem;
+    text-align: center;
+    font-size: .14rem;
+    color:#00a0ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
